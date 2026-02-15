@@ -1,0 +1,31 @@
+  # Python
+  __pycache__/
+  *.py[cod]
+  *.egg-info/
+  dist/
+  build/
+
+  # Jython compiled
+  *.class
+
+  # Sensitive files
+  server/oauth_tokens.json
+  server/config.py
+  .env
+
+  # OS
+  .DS_Store
+  Thumbs.db
+
+  # IDE
+  .idea/
+  .vscode/
+  *.swp
+  *.swo
+
+  # Logs
+  server/logs/
+
+  # OMC state
+  .omc/
+  server/.omc/
