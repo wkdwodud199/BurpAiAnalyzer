@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jython compiled
+*.class
+
+# Sensitive files
+server/oauth_tokens.json
+server/config.py
+server/sqli_test_partner_id.py
+.env
+
+# Internal-only PoC scripts (contain real internal hostnames/cookies)
+poc/
+
+# Claude Code / OMC local state
+.claude/
+.omx/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+server/logs/
+
+# OMC state
+.omc/
+server/.omc/
