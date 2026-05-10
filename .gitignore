@@ -21,6 +21,12 @@ poc/
 .claude/
 .omx/
 
+# Internal-only documentation (do not publish)
+CLAUDE_IMPLEMENTATION_HANDOFF.md
+DUAL_WIKI_CODEX_PLAN.md
+TODOLIST.md
+burp-extension-architecture-analysis.md
+
 # OS
 .DS_Store
 Thumbs.db
